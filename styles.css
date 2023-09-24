@@ -1,0 +1,209 @@
+/**
+Palette
+ORANGE: #F96E46
+DARK BLUE: #2B4162
+LIGHT BLUE: #F0F8FF
+GRAY:#6F7378
+WHITE:#FBFCFD
+*/
+
+/****************************/
+/* GENERAL */
+/****************************/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+}
+
+img {
+  width: 100px;
+}
+
+p {
+  line-height: 1.3;
+  color: #6f7378;
+}
+
+.activities-title,
+.card-act-title {
+  font-weight: 800;
+}
+/****************************/
+/* HERO SECTION */
+/****************************/
+
+.hero {
+  background-image: url(images/istanbul.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.hero-text {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.hero-title {
+  margin: 122px 0 0;
+  color: #2b4162;
+  font-family: "Kalam", cursive;
+  padding: 5px 12px;
+  border-radius: 10px;
+  font-size: 50px;
+}
+
+.hero-txt {
+  background: #f96e46;
+  padding: 8px 28px;
+  font-size: 19px;
+  color: #fbfcfd;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+/****************************/
+/* ACTIVITIES SECTION */
+/****************************/
+
+.activities-section {
+  background: #fbfcfd;
+  margin-top: 100px;
+  padding: 0px 0 50px;
+}
+
+.activities-title {
+  margin-bottom: 0px;
+  color: #f96e46;
+  font-family: "Kalam", cursive;
+}
+
+.cards-act {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 34px;
+}
+
+.card-act {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border-bottom-right-radius: 15px;
+  width: 260px;
+  background-color: #fbfcfd;
+  transition: all 0.5s ease;
+  box-shadow: 0px 0px 2px #f96e46;
+}
+
+.card-act-title {
+  margin-top: 0px;
+  background-color: #2b4162;
+  color: #f96e46;
+  font-family: "Kalam", cursive;
+  padding: 12px 8px;
+  letter-spacing: 1px;
+}
+
+.card-act-txt {
+  padding: 0 10px;
+  font-size: 14px;
+  color: #6f7378;
+}
+
+.card-act-img {
+  background-size: cover;
+  width: 100%;
+}
+
+.card-act:hover {
+  transform: translateY(20px) scale(1.1);
+}
+
+/****************************/
+/* GUIDE SECTION */
+/****************************/
+
+.section-guide {
+  background: #f0f8ff;
+  padding: 70px 0px 50px;
+  margin: 0;
+  margin-top: 60px;
+}
+
+.guide-card {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  column-gap: 25px;
+  width: 410px;
+  height: 210px;
+  background: #fbfcfd;
+  box-shadow: 0px 0px 3px #1d3557;
+  border-bottom-right-radius: 25px;
+  border-bottom: 10px solid #f96e46;
+  padding: 38px;
+  color: #2b4162;
+  transition: all 0.5s ease;
+}
+
+.guide-card:hover {
+  transform: scale(1.2);
+}
+
+.guide-name {
+  margin-top: 15px;
+}
+
+.guide-txt {
+  margin-bottom: 0px;
+  color: #6f7378;
+  font-family: "Kalam", cursive;
+}
+
+.guide-img {
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px #6f7378;
+}
+
+/****************************/
+/* PHRASE SECTION */
+/****************************/
+
+.section-phrase {
+  margin-top: 60px;
+  background: #fbfcfd;
+  padding: 70px 0px 50px;
+}
+
+.phrase {
+  width: 75%;
+  height: 100px;
+  padding: 40px 70px 100px;
+  margin: 0px auto;
+  border: 8px solid #f96e46;
+  border-bottom-right-radius: 50px;
+  background-image: url(images/cat.jpg);
+  background-size: cover;
+  background-position: right 35% bottom 55%;
+}
+
+.phrase-txt {
+  font-size: 40px;
+  line-height: 1;
+  color: #fbfcfd;
+  font-family: "Kalam", cursive;
+  text-shadow: 0px 0px 5px #2b4162;
+}
